@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{219E8B6D-CA73-33BA-BC47-19E1ED3D5DEC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/DuAnGame/com.hoang.gamedienbienphu/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DuAnGame/com.hoang.gamedienbienphu -BD:/DuAnGame/com.hoang.gamedienbienphu/proj.win32 --check-stamp-file D:/DuAnGame/com.hoang.gamedienbienphu/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\2d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\audio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\base\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\math\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\network\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\platform\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\renderer\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\ui\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/DuAnGame/com.hoang.gamedienbienphu/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DuAnGame/com.hoang.gamedienbienphu -BD:/DuAnGame/com.hoang.gamedienbienphu/proj.win32 --check-stamp-file D:/DuAnGame/com.hoang.gamedienbienphu/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\2d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\audio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\base\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\math\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\network\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\platform\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\renderer\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\ui\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/DuAnGame/com.hoang.gamedienbienphu/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DuAnGame/com.hoang.gamedienbienphu -BD:/DuAnGame/com.hoang.gamedienbienphu/proj.win32 --check-stamp-file D:/DuAnGame/com.hoang.gamedienbienphu/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\2d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\audio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\base\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\math\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\network\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\platform\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\renderer\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\ui\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/DuAnGame/com.hoang.gamedienbienphu/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/DuAnGame/com.hoang.gamedienbienphu -BD:/DuAnGame/com.hoang.gamedienbienphu/proj.win32 --check-stamp-file D:/DuAnGame/com.hoang.gamedienbienphu/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\2d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\audio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\base\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\math\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\navmesh\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\network\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\physics3d\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\platform\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\renderer\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\ui\CMakeLists.txt;D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{F3D32A6F-367E-393C-A775-2BF5CC1D3E99}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{E22C8ACD-C9EB-31EC-B81F-17D589ED94C3}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{35612871-E4CB-3A88-80BA-9CB7B68AAF18}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{111D3611-C4B8-322A-B501-EE90A43E04DB}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{1A2A6DD9-FB44-39CC-8868-53B51381E6FD}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{4BD1190C-A381-38A7-89EB-F5301D93EE6C}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{DDA38876-A720-3DC9-B9EE-350E4813393B}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{F966209C-6781-3B69-9EE1-D9975963B4F0}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{25E146DE-FA35-33CD-8B4B-20BED11DD0F6}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{04520DEC-5A82-31A9-8DCE-AFC79AF86AE4}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{D3CBB920-3BD7-341A-9678-1A06217C3489}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{1011E167-F1F9-373F-AD48-E06E5821F288}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\engine\external\external.vcxproj">
+      <Project>{ACB26737-8B85-3088-BABF-300A942FB676}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

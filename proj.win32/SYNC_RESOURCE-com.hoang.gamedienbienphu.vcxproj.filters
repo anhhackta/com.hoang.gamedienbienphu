@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\CMakeFiles\35095dc93ff8987441bb6d37091f25e7\SYNC_RESOURCE-com.hoang.gamedienbienphu.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\DuAnGame\com.hoang.gamedienbienphu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\CMakeFiles\SYNC_RESOURCE-com.hoang.gamedienbienphu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EA6A30E4-07DB-3082-8653-5C30901F74D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\SplashScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\Player\Player.cpp">
+      <Filter>Source Files\Classes\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\Cursor\Cursor.cpp">
+      <Filter>Source Files\Classes\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SetSize\SetSize.cpp">
+      <Filter>Source Files\Classes\SetSize</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\SplashScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\Player\Player.h">
+      <Filter>Source Files\Classes\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Classes\Cursor\Cursor.h">
+      <Filter>Source Files\Classes\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\DuAnGame\com.hoang.gamedienbienphu\Resources\tam.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SetSize\SetSize.h">
+      <Filter>Source Files\Classes\SetSize</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\DuAnGame\com.hoang.gamedienbienphu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\DuAnGame\com.hoang.gamedienbienphu\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{D614FDED-FB88-36B9-95B2-FAB7CA2F0470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\asset">
+      <UniqueIdentifier>{298C1A5D-1230-3652-B642-639889B78D9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{73B39BC3-C462-3E3A-A38E-B96D92D2EAFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{F8A95FA6-711E-30E7-A3A4-DA7653B30F8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5FF0434-F730-31D5-983C-07E7F84FD702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{3ADDE2F4-D3B3-32AD-96A9-B056A3C1B802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Cursor">
+      <UniqueIdentifier>{A2495DD9-4A23-34D7-A3F3-7890B6A4F155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Player">
+      <UniqueIdentifier>{A13144EF-FEFE-377D-9935-115E60B46283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{D2E2D537-4544-3E86-B6A9-CB12CF511666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\SetSize">
+      <UniqueIdentifier>{7843684d-e9d0-4af0-b6e5-7be6954ce9ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\asset\maingame.png">
+      <Filter>Resources\asset</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\asset\maingame.plist">
+      <Filter>Resources\asset</Filter>
+    </None>
+  </ItemGroup>
+</Project>
